@@ -21,7 +21,5 @@ request.onload = function()
 
 //OUTPUT:
 
-// Afghanistan
-// Asia
-// Southern Asia
-// 40218234
+// NAME: Afghanistan REGION: Asia SUB-REGION: Southern Asia POPULATION: 40218234
+
