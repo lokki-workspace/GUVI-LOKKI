@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-}
 
 #navbar{
     background: black;
@@ -12,7 +6,7 @@
     text-align: center;
 }
 .nav-item .nav-link{
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 100;
     color: white;
     border-radius: 20px;
@@ -20,9 +14,9 @@
 }
 
 .home{
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.884)), url(./images/bgimage.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.884));
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     text-align: center;
 }
 
@@ -33,27 +27,25 @@
 
 .home .content h1{
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     text-shadow: 0px 1px 1px black;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .home .content p{
-    color: white;
-    font-size: 18px;
-    font-weight: 100;
-    text-shadow: 0px 1px 1px black;
+    color: rgb(184, 1, 1);
+    font-size: 19px;
 }
 
 
 
-.book {
+.profile {
     background: white;
     padding: 50px;
     width: 100%;
 }
 
-.book .detail{
+.profile .detail{
     text-align: left;
     margin-left: 150px;
     margin-top: 50px;
@@ -61,11 +53,11 @@
  }  
 
 
- .book .img{
+ .profile .img{
     padding: 50px;
  }
  
-.book .card{
+.profile .card{
     margin-left: 30px;
     margin-top: 40px;
 }
@@ -84,7 +76,7 @@
 
 .achive{
     background-color: white;
- height: 500px;
+ height: 700px;
 }
 
 .achive .awards{
@@ -99,7 +91,102 @@ margin-top: 50px;
 }
 
 .achive .card{
-    box-shadow: rgba(0,0,0,0.1) 0px 4px;
+    box-shadow: rgba(0.1,0.1,0.1,0.1) 1px 1px 1px 1px;
     border: none;
     cursor: pointer;
 }
+
+
+.lines{
+    position: relative;
+    max-width: 1350px;
+    margin: 3px auto;
+    text-align: center;
+  }
+  
+  .lines:before{
+    content:" ";
+    height: 1px;
+    width: 550px;
+    background: rgb(197, 197, 197);
+    display: block;
+    position: absolute;
+    top: 50%;
+    
+  }
+  
+  .lines:after{
+    content:" ";
+    height: 1px;
+    width: 550px;
+    background: rgb(197, 197, 197);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+  }
+
+  .record .recdiv{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    text-align: center;
+  }
+
+  .rec-lines{
+    position: relative;
+    max-width: 630px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
+  
+  .rec-lines:before{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background: rgb(197, 197, 197);
+    display: block;
+    position: absolute;
+    top: 50%;
+    
+  }
+  
+  .rec-lines:after{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background: rgb(197, 197, 197);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+  }
+  
+  .record .ul{
+    text-align: left;
+    margin-left: 100px;
+  }
+
+  .footer{
+    height: 250px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+  }
+
+  .footer .foodiv{
+    float: left;
+    width: 40%;
+    padding: 60px;
+  font-size: 14px;
+  }
+  .footer .foodivo{
+    float: left;
+    width: 20%;
+    padding: 60px;
+    font-size: 14px;
+  }
